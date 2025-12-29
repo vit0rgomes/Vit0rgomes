@@ -22,7 +22,7 @@ Busco uma oportunidade para aplicar meu conhecimento em Ciência de Dados ou Des
 
 ---
 
-## 🚀 Projetos
+## 🚀 Projetos de Iniciação Científica
 - **Game Persona** — Software que agrupa diferentes estratégias de definição de perfis de jogadores (gamificação), com diferentes funcionalidades e objetivos, para que facilite a busca por estratégias com objetivos diversos, usando `Laravel`, `SQL`, etc.
 - **Pipeline R + Kubernetes** — Uso do pacote `future` e `parallel` com execução distribuída no Kubernetes e Helm charts.
 
