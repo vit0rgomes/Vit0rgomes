@@ -1,43 +1,41 @@
 # Olá, eu sou o Vitor Fernandes Gomes 👋
 
-**Cientista de Dados | Analista de Dados | Estagiário de Inovação na MRS Logística**  
+**Estagiário de Inovação & IA na MRS Logística | Cientista & Analista de Dados**  
 🎓 Graduado em **Ciências Exatas** (2023–2025) e graduando em **Ciência da Computação** (UFJF)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vitor--fgomes-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitor-fgomes)
-[![Portfólio Notion](https://img.shields.io/badge/Portf%C3%B3lio-Notion-000000?style=for-the-badge&logo=notion&logoColor=white)](https://ember-bath-3fe.notion.site/Vitor-Fernandes-Gomes-2f935e03311980cda835e9a5455bf25d)
+[![Portfólio Notion](https://img.shields.io/badge/Portf%C3%B3lio_Completo-Notion-000000?style=for-the-badge&logo=notion&logoColor=white)](https://ember-bath-3fe.notion.site/Vitor-Fernandes-Gomes-2f935e03311980cda835e9a5455bf25d)
 [![Gmail](https://img.shields.io/badge/Email-vitorfg.gomes%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vitorfg.gomes@gmail.com)
 
 ---
 
-### 💡 Sobre mim
+### 🤖 O que você encontra no meu Portfólio de IA & Dados
 
-Combino base quantitativa e computacional com visão pragmática de negócio para transformar dados brutos em decisões claras. Atualmente atuo na **Gerência de Inovação e Dados da MRS Logística S.A.**, trabalhando com análise de dados, construção de indicadores executivos (Power BI / SQL), automação de processos e agentes de IA generativa.
-
-- 📊 **Dados & Analytics:** Coleta, tratamento, modelagem dimensional (*Star Schema*) e Data Storytelling.
-- 🤖 **Machine Learning & IA:** Sistemas de Recomendação, modelos preditivos (`Scikit-learn`) e arquiteturas **RAG** com LLMs locais/nuvem.
-- ☸️ **Engenharia & Cloud:** Computação estatística distribuída e paralela em **R** (`future` / `mirai`) com **Docker**, **Kubernetes** e **Helm**.
-
----
-
-### 🛠️ Stack & Ferramentas
-
-- **Linguagens & Bancos de Dados:** Python (`Pandas`, `NumPy`, `Scikit-learn`, `Seaborn`, `Matplotlib`), SQL, R, C++, PHP (`Laravel`)
-- **BI & Automação:** Power BI (`DAX`, `Power Query`), Excel Avançado, Power Automate, Copilot Studio
-- **IA & LLMs:** LangChain, Ollama, ChromaDB, Engenharia de Prompt & Agentes
-- **Infraestrutura & DevOps:** Docker, Kubernetes, Helm Charts, Git & GitHub, Linux
+- 🧠 **Prompts Estruturados & Experimentações com LLMs:** Extração semântica de intenção com *Structured Outputs* (`Pydantic`), *Few-Shot Prompting* e *Guardrails* de segurança no [`delivery-agent-recommender`](https://github.com/vit0rgomes/delivery-agent-recommender), além de pipelines **RAG** (`LangChain` + `Ollama` + `ChromaDB`) com *grounding* estrito em documentos no [`rag-langchain-ollama`](https://github.com/vit0rgomes/rag-langchain-ollama).
+- ⚡ **Automações que Economizaram Horas Reais em Processos:** Automação ponta a ponta de fluxos operacionais, validação de dados e notificações de SLA na **MRS Logística S.A.** (`Power Automate` + `SQL` + `Python`), reduzindo em **~70% o tempo gasto** em tarefas manuais repetitivas de consolidação.
+- 🛠️ **Ferramentas Internas Deployadas, Dashboards & Agentes:** Concepção e deploy de **Agente Corporativo de IA Generativa** (`Copilot Studio` integrado ao `SharePoint`) para busca inteligente em documentos técnicos, além de **Dashboards Executivos** em `Power BI` (*Star Schema* / `DAX`).
+- 🚀 **Soluções em Produção com Resultados Mensuráveis:** Painéis e automações usados ativamente na tomada de decisão pela liderança de Inovação da **MRS Logística**, plataforma **Game Persona** em produção na **UFJF** para classificação automatizada de perfis comportamentais e cluster **Kubernetes + R** na nuvem da RNP ([`future-helm-chart-rnp`](https://github.com/vit0rgomes/future-helm-chart-rnp)).
 
 ---
 
 ### 🚀 Projetos em Destaque
 
-| Projeto | Descrição | Tecnologias |
+| Projeto | Pilar de IA / Engenharia | Tecnologias |
 | :--- | :--- | :--- |
-| **[🤖 Sistema RAG com LangChain & Ollama](https://github.com/vit0rgomes/rag-langchain-ollama)** | Pipeline 100% local de *Retrieval-Augmented Generation* para consulta inteligente em documentos PDF usando embeddings (`mxbai-embed-large`) e banco vetorial ChromaDB. | `Python` `LangChain` `Ollama` `ChromaDB` |
-| **[☸️ R Paralelo no Kubernetes (Helm Chart)](https://github.com/vit0rgomes/future-helm-chart-rnp)** | Orquestração de clusters Kubernetes (RNP) com Docker e Helm para execução distribuída de cargas estatísticas em R com `future` e `mirai`. | `R` `Kubernetes` `Docker` `Helm` |
-| **[🛵 Delivery Agent Recommender](https://github.com/vit0rgomes/delivery-agent-recommender)** | Sistema de recomendação contextual e agente inteligente voltado ao cenário de delivery, integrando regras de domínio e filtragem personalizada. | `Python` `Recommender Systems` `AI Agents` |
-| **[🚗 Análise de Oferta e Demanda — Case Uber](https://github.com/vit0rgomes/data_analytics_uber_case)** | Análise exploratória (EDA) e diagnóstico de gargalos operacionais entre oferta de motoristas e demanda de viagens. | `Python` `Pandas` `Seaborn` `Matplotlib` |
+| **[🛵 Delivery Agent Recommender](https://github.com/vit0rgomes/delivery-agent-recommender)** | **Prompts Estruturados, Guardrails & Agentes:** Extração de intenção em linguagem natural via LLM (*Few-Shot* + `Pydantic`) combinada com funil determinístico anti-contaminação cruzada para celíacos e alérgicos. | `Python` `Pydantic` `LLMs` `Prompt Engineering` |
+| **[🤖 Sistema RAG com LangChain & Ollama](https://github.com/vit0rgomes/rag-langchain-ollama)** | **Experimentação com LLMs & Vector DBs:** Arquitetura 100% local de *Retrieval-Augmented Generation* sobre PDFs com embeddings `mxbai-embed-large`, `ChromaDB` e `llama3.2`. | `Python` `LangChain` `Ollama` `ChromaDB` |
+| **[☸️ R Paralelo no Kubernetes (Helm Chart)](https://github.com/vit0rgomes/future-helm-chart-rnp)** | **Infraestrutura em Produção & Escala:** Orquestração de clusters Kubernetes (RNP) com Docker e Helm para execução distribuída de simulações estatísticas em R (`future` / `mirai`). | `R` `Kubernetes` `Docker` `Helm` |
+| **[🚗 Análise de Oferta e Demanda — Case Uber](https://github.com/vit0rgomes/data_analytics_uber_case)** | **Analytics Operacional & Decisão:** Diagnóstico de 11 problemas reais de alocação de frota, janelas móveis (24h/72h) e demanda reprimida (*Zeroes/Eyeballs*). | `Python` `Pandas` `Seaborn` `Matplotlib` |
 
-> 📌 Confira também meus cases completos de **Power BI (Lei do Bem — MCTI)**, **Machine Learning** e **Iniciação Científica** no meu **[Portfólio no Notion](https://ember-bath-3fe.notion.site/Vitor-Fernandes-Gomes-2f935e03311980cda835e9a5455bf25d)**.
+> 📌 **Cases Corporativos e em Produção (MRS Logística, Lei do Bem — MCTI e Game Persona UFJF):** Confira a documentação completa e métricas de impacto no meu **[Portfólio no Notion](https://ember-bath-3fe.notion.site/Vitor-Fernandes-Gomes-2f935e03311980cda835e9a5455bf25d)**.
+
+---
+
+### 🛠️ Stack & Ferramentas
+
+- **Engenharia de IA & LLMs:** Python (`Pandas`, `NumPy`, `Scikit-learn`, `Pydantic`), LangChain, Ollama, ChromaDB, Copilot Studio, Prompt Engineering (*Structured Outputs*, *Few-Shot*, *Guardrails*), Sistemas de Recomendação
+- **Dados, BI & Automação:** SQL, Power BI (`DAX`, *Star Schema*, `Power Query`), Power Automate, R, Excel Avançado
+- **Infraestrutura, Backend & DevOps:** Docker, Kubernetes, Helm Charts, Git & GitHub, Linux, C++, PHP (`Laravel`)
 
 ---
 
